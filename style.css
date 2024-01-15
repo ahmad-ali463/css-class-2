@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 0;
     background-color: black;
     
@@ -10,6 +10,8 @@ a{
 h1{
     text-align: center;
     background-color: blueviolet;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
 }
 p{
     color: white;
@@ -17,12 +19,22 @@ background-color: aqua;
 }
 
 
-
-
-
-
-
-
 footer p {
     text-align: center;
+} */
+
+
+.box1{
+    width: 200px;
+    border: 1px solid red;
+    border-style: solid;
+    
 }
+.square-box{
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    border-right: 10px;
+}
+
+
